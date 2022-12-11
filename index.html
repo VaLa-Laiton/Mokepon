@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOKEPON!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Quicksand:wght@400;700&display=swap" rel="stylesheet"> 
+    <!-- <link rel="stylesheet" href="/style.css"> -->
+</head>
+<body>
+    <nav class="principal__tittle">
+        <h1>MOKEPON!</h1>
+    </nav>
+
+    <section id="seleccionar-mascota" class="select__pet">
+        <h2 class="select__pet--tittle">Elige tu mascota:</h2>
+
+        <div class="select__pet--input">
+            <input type="radio" name="mascota" id="hipodoge">
+            <label for="hipodoge">
+                Hipodoge
+                <!-- <img src="./assets/img/hipodoge.png" alt=""> -->
+            </label>
+
+            <input type="radio" name="mascota" id="capipepo">
+            <label for="capipepo">
+                Capipepo
+                <!-- <img src="./assets/img/capipepo.png" alt=""> -->
+            </label>
+
+            <input type="radio" name="mascota" id="ratigueya">
+            <label for="ratigueya">
+                Ratigueya
+                <!-- <img src="./assets/img/ratigueya.png" alt=""> -->
+            </label>
+        </div>
+
+        <button class="select__pet--button" id="boton-mascota">Seleccionar</button>
+    </section>
+
+    <section id="seleccionar-ataque">
+        <h2>Elige tu ataque:</h2>
+
+        <p>Tu mascota <span id="mascota-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
+        <p>La mascota <span id="mascota-enemigo"></span> del enemigo, tiene <span id="vidas-enemigo">3</span> vidas</p>
+        
+        <p>
+            <button id="boton-fuego">Fuego 🔥</button>
+            <button id="boton-agua">Agua 💧</button>
+            <button id="boton-tierra">Tierra 🌱</button>
+        </p>
+    </section>
+
+    <section id="mensaje">
+    </section>
+
+    <section id="reiniciar">
+        <button id="boton-reiniciar">Reiniciar</button>
+    </section>
+
+    <script src="./js/main.js"></script> 
+</body>
+</html>
