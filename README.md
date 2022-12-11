@@ -1,1 +1,3 @@
 # Mokepon
+
+El objetivo del minijuego es que el jugador elija a una mascota, después de elegir a esta mascota, se enfrenta de manera aleatoria con otra mascota, y podrá utilizar 3 ataques, fuego, agua y tierra, donde fuego vence al agua, agua vence a la tierra, y la tierra vence al fuego. Cuando estén en la batalla, se mostrará el resultado después de cada ataque y se descontarán 1 de las 3 vidas del jugador dependiendo del resultado del ataque.
